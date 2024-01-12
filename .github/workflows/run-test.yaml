@@ -30,6 +30,7 @@ jobs:
         with:
           distribution: 'adopt' # See 'Supported distributions' for available options
           java-version: '17'
+
       # 권한 문제 발생 생각하여 실행 권한 추가
       - name: make executable gradlew
         run: chmod +x ./gradlew
